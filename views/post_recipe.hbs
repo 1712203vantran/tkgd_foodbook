@@ -1,0 +1,293 @@
+<!-- top Dishes -->
+<div class="ads-grid py-sm-2 py-4">
+    <div class="container py-xl-4 py-lg-2">
+        <!-- tittle heading -->
+        <h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
+            <span>C</span>hia
+            <span>S</span>ẻ
+            <span>C</span>ông
+            <span>T</span>hức
+        </h3>
+        <!-- //tittle heading -->
+        <div class="row">
+            <div id="postRecipePanel" class="col-md-12" name="top">
+                <div class="tab" role="tabpanel">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item"><a id="recipeInfoTab" href="#recipeInfo" class="nav-link active" aria-controls="recipeInfo" role="tab" data-toggle="tab" aria-selected="true"><span>1</span> Thông tin món ăn</a></li>
+                        <li class="nav-item"><a id="recipeGuideTab" href="#recipeGuide" class="nav-link" aria-controls="recipeGuide" role="tab" data-toggle="tab" aria-selected="false"><span>2</span> Review</a></li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content tabs">
+                        <!-- Recipe info -->
+                        <div role="tabpanel" class="tab-pane fade show active" id="recipeInfo" aria-labelledby="recipeInfoTab">
+                            <div class="recipe-info-wrapper">
+                                <form id="postRecipeForm" class="form" action="/post_recipe" method="post" name="post_recipe_form">
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label for="recipe_name">Tên món ăn: </label>
+                                            <input type="text" class="form-control" id="recipe_name" name="name" value="" placeholder="Tên món ăn">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="recipe_health_Score">Chỉ số sức khỏe: </label>
+                                            <input type="number" min="0" max="100" step="1" class="form-control" id="recipe_health_Score" name="healthScore" value="0" placeholder="Chỉ số sức khỏe">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label for="recipe_difficulty">Độ khó:</label> <br>
+                                            <select id="recipe_difficulty" class="form-control" name="difficulty">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="recipe_servings">Khẩu phần:</label>
+                                            <input type="number" min="1" max="100" step="1" class="form-control" id="recipe_servings" name="servings" value="1" placeholder="Khẩu phần">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-md-6">
+                                            <label for="recipe_readyTime">Thời gian thực hiện (phút):</label>
+                                            <input type="number" min="1" step="1" class="form-control" id="recipe_readyTime" name="readyTime" value="0" placeholder="Thời gian thực hiện">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="recipe_price">Chi phí (VND):</label>
+                                            <input type="number" min="0" step="1000" class="form-control" id="recipe_price" name="price" value="0" placeholder="Chi phí">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-md-12">
+                                            <label for="recipe_description">Mô tả:</label>
+                                            <textarea class="form-control" id="recipe_description" name="description" rows="5" placeholder="Giới thiệu về món ăn"></textarea>
+                                        </div>
+                                    </div>
+                                    <h4 class="my-3">Phân loại</h4>
+                                    <!-- Recipe type -->
+                                    <div class="row my-3">
+                                        <div id="recipeType" class="form-group col-md-12">
+                                            <label for="recipe_type"><h5>Loại món ăn</h5></label>
+                                            <div class="recipe-type-wrapper">
+                                                {{# each dishTypes}}
+                                                    <div class="row mb-2">
+                                                        {{# each this}}
+                                                            <div class="col-md-2">
+                                                                <input class="form-check-input" type="checkbox" value="{{index}}" id="dishTypeCb{{index}}" name="dishTypeCb">
+                                                                <label class="form-check-label" for="dishTypeCb{{index}}">
+                                                                    {{name}}
+                                                                </label> 
+                                                            </div>
+                                                        {{/each}}
+                                                    </div>
+                                                {{/each}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Recipe cuisine -->
+                                    <div class="row my-3">
+                                        <div id="recipeCuisine" class="form-group col-md-12">
+                                            <label for="recipe_cuisine"><h5>Nền ẩm thực</h5></label>
+                                            <div class="recipe-cuisine-wrapper">
+                                                {{# each cuisines}}
+                                                    <div class="row mb-2">
+                                                        {{# each this}}
+                                                            <div class="col-md-2">
+                                                                <input class="form-check-input" type="checkbox" value="{{index}}" id="cuisineCb{{index}}" name="cuisineCb">
+                                                                <label class="form-check-label" for="cuisineCb{{index}}">
+                                                                    {{name}}
+                                                                </label> 
+                                                            </div>
+                                                        {{/each}}
+                                                    </div>
+                                                {{/each}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Recipe diet -->
+                                    <div class="row my-3">
+                                        <div id="recipeDiet" class="form-group col-md-12">
+                                            <label for="recipe_diet"><h5>Chế độ ăn (tùy chọn)</h5></label>
+                                            <div class="recipe-diet-wrapper">
+                                                {{# each diets}}
+                                                    <div class="row mb-3">
+                                                        {{# each this}}
+                                                            <div class="col-md-3">
+                                                                <input class="form-check-input" type="checkbox" value="{{index}}" id="dietCb{{index}}" name="dietCb">
+                                                                <label class="form-check-label" for="dietCb{{index}}">
+                                                                    {{name}}
+                                                                </label> 
+                                                            </div>
+                                                        {{/each}}
+                                                    </div>
+                                                {{/each}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Image -->
+                                    <h4 class="my-3">Minh họa</h4>
+                                    <input id="recipe-image" type="file" name="recipeImage"/> 
+                                    <h4 class="mt-5 mb-3">Thành phần dinh dưỡng</h4>
+                                    <!-- Nutritions -->
+                                    <div class="row my-3">
+                                        <div class="col-md-12 form-group" id="post_recipe_nutritions">
+                                            <select class="select2 form-control" multiple="multiple" name="nutritions" placeholder="Nhập tên các thành phần dinh dưỡng">
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!-- Ingredients -->
+                                    <h4 class="mt-5 mb-3">Nguyên liệu</h4>
+                                    <h5 class="my-3 text-danger"><i class="fa fa-rocket"></i> Nguyên liệu chính</h5>
+                                    <div id="recipe-ingredients" class="guide-wrapper py-2 px-3">
+                                        <!-- Ingredient row -->
+                                        <div class="recipe-ingredient-row guide-row py-3">
+                                            <div class="row py-2">
+                                                <div class="d-none"><span class="guide-number">1</span></div>
+                                                <div class="col-md-1 text-center text-danger"><i class="fa fa-chevron-right"></i></div>
+                                                <div class="col-md-6 form-group recipe-ingredient-content">
+                                                    <select class="recipe-ingredient select2 form-control" name="recipeIngredient" value="">
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-4 input-group mb-2">
+                                                    <input type="number" min="0" class="recipe-ingredient-unit-val form-control d-inline rounded" name="recipeIngredientUnitVal" value="" placeholder="Số lượng">
+                                                    <div class="input-group-append mx-2">
+                                                        <select class="recipe-ingredient-unit form-control" name="recipeIngredientUnit">
+                                                            {{# each ingredientUnits}}
+                                                                <optgroup label="{{key}}">
+                                                                    {{# each value}}
+                                                                        <option value="{{this}}">{{this}}</option>
+                                                                    {{/each}}
+                                                                </optgroup>
+                                                            {{/each}}
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1 recipe-ingredient-buttons text-center">
+                                                    <a class="guide-delete btn"><i class="fa fa-window-close"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- Define ingredient -->
+                                            <div class="row">
+                                                <h6 class="recipe-ingredient-add-new-title col-md-12 d-block pb-2 px-5 text-primary"><a class="ingredient-new-collapser btn" data-toggle="collapse" role="button" aria-expanded="false"><i class="fa fa-plus"></i> Định nghĩa nguyên liệu</a></h6>
+                                            </div>
+                                            <div class="row">
+                                                <div class="collapse ingredient-new-collapsee col-md-12 px-3 pb-3">
+                                                    <div class="card-body row border">
+                                                        <div class="col-md-12">
+                                                            <input class="recipe-ingredient-add-new-image" type="file" /> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- //Ingredient row -->
+                                        <!-- Add button -->
+                                        <div class="display block text-left my-5 guide-button-wrapper">
+                                            <button type="button" class="btn btn-success guide-add py-2 px-3" style="font-size: 0.9em;">+ Thêm nguyên liệu</button>
+                                        </div>
+                                    </div>
+                                    <!-- Extended Ingredients -->
+                                    <h5 class="my-3 text-danger"><i class="fa fa-rocket"></i> Nguyên liệu phụ</h5>
+                                    <div id="recipe-extended-ingredients" class="guide-wrapper py-2 px-3">
+                                        <!-- Ingredient row -->
+                                        <div class="recipe-ingredient-row guide-row py-3">
+                                            <div class="row py-2">
+                                                <div class="d-none"><span class="guide-number">1</span></div>
+                                                <div class="col-md-1 text-center text-danger"><i class="fa fa-chevron-right"></i></div>
+                                                <div class="col-md-6 form-group recipe-ingredient-content">
+                                                    <select class="recipe-ext-ingredient select2 form-control" name="recipeExtIngredient" value="">
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-4 input-group mb-2">
+                                                    <input type="number" min="0" class="recipe-ext-ingredient-unit-val form-control d-inline rounded" name="recipeExtIngredientUnitVal" value="" placeholder="Số lượng">
+                                                    <div class="input-group-append mx-2">
+                                                        <select class="recipe-ingredient-unit form-control" name="recipeExtIngredientUnit">
+                                                            {{# each ingredientUnits}}
+                                                                <optgroup label="{{key}}">
+                                                                    {{# each value}}
+                                                                        <option value="{{this}}">{{this}}</option>
+                                                                    {{/each}}
+                                                                </optgroup>
+                                                            {{/each}}
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-1 recipe-ingredient-buttons text-center">
+                                                    <a class="guide-delete btn"><i class="fa fa-window-close"></i></a>
+                                                </div>
+                                            </div>
+                                            <!-- Define ingredient -->
+                                            <div class="row">
+                                                <h6 class="recipe-ingredient-add-new-title col-md-12 d-block pb-2 px-5 text-primary"><a class="ingredient-new-collapser btn" data-toggle="collapse" role="button" aria-expanded="false"><i class="fa fa-plus"></i> Định nghĩa nguyên liệu</a></h6>
+                                            </div>
+                                            <div class="row">
+                                                <div class="collapse ingredient-new-collapsee col-md-12 px-3 pb-3">
+                                                    <div class="card-body row border">
+                                                        <div class="col-md-12">
+                                                            <input class="recipe-ingredient-add-new-image" type="file" /> 
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- //Ingredient row -->
+                                        <!-- Add button -->
+                                        <div class="display block text-left my-5 guide-button-wrapper">
+                                            <button type="button" class="btn btn-success guide-add py-2 px-3" style="font-size: 0.9em;">+ Thêm nguyên liệu</button>
+                                        </div>
+                                    </div>
+                                    <!-- Buttons -->
+                                    <div class="display block text-center my-5">
+                                        <button type="button" id="tab1NextBtn" class="btn violet-reverse-link-btn pt-2 pb-2 pl-5 pr-5" style="font-size: 1.1em;">Tiếp theo</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>    
+                        <!-- Recipe guide -->                   
+                        <div role="tabpanel" class="tab-pane fade" id="recipeGuide" aria-labelledby="recipeGuideTab">
+                            <form id="recipe-guide" class="guide-wrapper py-2 px-3" name="recipeGuideForm"> 
+                                <!-- Guide row -->
+                                <div class="recipe-guide-row guide-row py-3">
+                                    <div class="row py-2">
+                                        <div class="col-md-1 recipe-guide-number text-center"><span class="guide-number">1</span></div>
+                                        <div class="col-md-8 form-group recipe-guide-content">
+                                            <textarea class="form-control" name="guide_content" rows="3" placeholder="Nhập hướng dẫn thực hiện"></textarea>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <textarea class="form-control" name="guide_equipments" rows="3" placeholder="Nhập các dụng cụ cần ở bước này"></textarea>
+                                        </div>
+                                    </div>
+                                    <h6>Tải ảnh hướng dẫn <i>(<span class="red-asterisk">*</span>Tối đa 6 ảnh)</i></h6>
+                                    <input class="recipe-guide-image py-3" type="file"/>
+                                    <div class="recipe-guide-buttons">
+                                        <a class="guide-delete btn"><i class="fa fa-trash"></i></a>
+                                    </div>
+                                </div>
+                                <!-- //Guide row -->
+                                <!-- Add button -->
+                                <div class="display block text-left my-5 guide-button-wrapper">
+                                    <button type="button" class="btn btn-info guide-add py-2 px-3" style="font-size: 0.9em;">+ Thêm bước thực hiện</button>
+                                </div>
+
+                                <div class="row my-1 px-3">
+                                    <h4 class="my-4">Video minh họa (tùy chọn)</h4>
+                                    <div class="form-group col-md-12">
+                                        <input type="text" class="form-control" id="recipe_video" name="video" value="" placeholder="Nhập link Video minh họa: https://">
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- Buttons -->
+                            <div class="display block text-center my-3">
+                                <button type="button" href="#top" id="tab2BackBtn" class="btn violet-reverse-link-btn pt-2 pb-2 pl-5 pr-5" style="font-size: 1.1em;">Quay lại</button>
+                                <button type="button" id="submitBtn" class="btn violet-link-btn pt-2 pb-2 pl-5 pr-5" style="font-size: 1.1em;"> Gửi </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //top Dishes -->

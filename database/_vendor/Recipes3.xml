@@ -1,0 +1,4916 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>C&#225;ch L&#224;m Cơm G&#224; Xối Mỡ | Gi&#242;n Ngon Ngay Tại Nh&#224; | Cooky</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="apple-touch-icon-precomposed" href="/Content/img/favicon-96x96.png" />
+    <link rel="android-touch-icon" href="/Content/img/favicon-96x96.png" />
+    <link rel="manifest" href="/manifest.json">
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s640/recipe980-636251732058621064.jpg" />
+
+
+
+    <meta property="og:image" content="https://media.cooky.vn/recipe/g1/980/s/recipe980-cook-step4-636875709657889153.jpg" />
+
+
+
+
+
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="description" content="Cách Làm Cơm Gà Xối Mỡ giòn rụm, vàng ươm, thơm ngon ngay tại nhà đây. Cơm gà xối mỡ ngon nhất là phải được ăn cùng với chén canh rong biển quen thuộc và..." />
+    <meta name="keywords" content="cơm g&#224;, cơm chi&#234;n g&#224; xối mỡ, cơm r&#225;n g&#224; xối mỡ, cơm g&#224; xối mỡ da gi&#242;n, g&#224; xối mỡ" />
+
+    <link rel="stylesheet" type="text/css" href="/dist/css/recipe.detail.min.css" />
+
+
+    <link href="/dist/css/shared.market.min.css" rel="stylesheet" />
+
+    <script src="/dist/scripts/jquery-3.5.min.js"></script>
+    <script src="/dist/scripts/polyfill.js"></script>
+    <script src="/dist/scripts/helper.min.js"></script>
+    <script>
+        var apiHostUrl = "https://marketapi.cooky.vn";
+    </script>
+
+
+
+    <base href="/" />
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0];
+            var j = d.createElement(s);
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NF9KS7H');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-9141160769841159",
+            enable_page_level_ads: true
+        });
+    </script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NF9KS7H"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="top-leaderboard">
+
+
+
+    </div>
+
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "Cooky.Vn",
+            "alternateName": "Công thức nấu các món ăn ngon mỗi ngày",
+            "url": "https://www.cooky.vn/"
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "https://www.cooky.vn/",
+                    "name": "Trang chủ"
+                }
+            }, {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "https://www.cooky.vn/cong-thuc/com-ga-xoi-mo-980",
+                    "name": "Cơm gà xối mỡ"
+                }
+            }]
+        }
+    </script>
+    <script type="text/javascript">
+        var apiHostUrl = "https://marketapi.cooky.vn";
+        var apiHostUrlObsoleted = "https://api.cooky.vn";
+        var apiHostMediaUrlObsoleted = "https://media.cooky.vn";
+        var recipeId = "980";
+        var dishTypeName = "";
+        var dishTypeUrl = "";
+        //$(document).ready(function () {
+        //    $('#cooky-report').parent().remove();
+        //});
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <div id="app"> </div>
+
+    <div id="fb-root"></div>
+    <div class="share-box">
+        <div class="btn-collapse" style="display:none">
+            <a href="javascript:void(0);" id="share-box-open" title="mở rộng" onclick="toggle(this)">
+                <span class="fa fa-caret-left"></span>
+                <span class="highlight text-rotage">Chia sẻ</span>
+            </a>
+        </div>
+        <div class="box-collapsed">
+            <div class="box-title">
+                <a href="javascript:void(0);" style="text-decoration:none" class="center" id="share-box-close" title="thu gọn" onclick="toggle(this)">
+                    <div class="total-viewer pull-left center"><span class="highlight abbrnum">79937</span></div>
+                    <div class="pull-left center" style="padding:4px 0">lượt xem </div>
+                    <div class="clearfix" style="color: #838282; font-size:10px; background:#F7F7F7; padding:5px;">Thu gọn</div>
+                </a>
+            </div>
+            <div class="tools-list">
+
+                <div class="fb-like" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980" data-width="50px" style="margin-bottom:5px;" data-layout="box_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+                <!-- Place this tag where you want the +1 button to render. -->
+                <div class="g-plusone" data-size="tall" data-annotation="none" data-width="60px" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980"></div>
+                <div class="zalo-share-button" data-href="http://www.cooky.vn:811/cong-thuc/com-ga-xoi-mo-980?utm_source=zalo&amp;utm_medium=zalomsg&amp;utm_campaign=cookydesktop" data-oaid="337619808896096041" data-layout="icon-text" data-customize="true">
+                    <a href="#" title="Chia sẻ Zalo" style="text-decoration: none;">
+                        <span class="ti-zalo" style="background: url(/Content/img/icons/icon_zalomessage.png) no-repeat 50% 50%;width: 16px; height: 16px; display: inline-block; background-size: 14px; vertical-align: middle; margin-right: 0; position: relative; top: 0px;"></span>
+                        <span class="label" style="padding:0;">Zalo</span>
+                    </a>
+                </div>
+                <a class="btn-report-by-email" href="mailto:info@cooky.vn">Báo lỗi</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var collapsed = false;
+        var toggle = function(e) {
+            if (collapsed) {
+                $('.share-box').removeClass('collapsed');
+                $('.btn-collapse').hide();
+            } else {
+                $('.share-box').addClass('collapsed');
+                $('.btn-collapse').show();
+            }
+
+            collapsed = !collapsed;
+            $(".box-collapsed").animate({
+                height: 'toggle',
+                width: 'toggle'
+            });
+        }
+    </script>
+
+    <!-- Place this tag after the last +1 button tag. -->
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://sp.zalo.me/plugins/sdk.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <script src="/bundles/core.js?v=dN18Y12G3HYZrr5_5OGZmJJnc64Em1T1E77wWS458qU1"></script>
+    <script src="/bundles/base.js?v=IoiQVMIiQe-GuziFFVQCm9_fkgOwz7uO3TAFCObm0fk1"></script>
+    <script src="/dist/scripts/recipe.detail.min.js?v=1"></script>
+
+    <div id="map" style="display:none;"></div>
+    <div control-class="dialog">
+        <div class="dialog-backdrop"></div>
+        <div class="dialog-container">
+            <div class="animate__animated animate__faster dialog-wrapper">
+                <div class="dialog-body">
+                    <div control-class="message-title" class="title"></div>
+                    <div control-class="message-content" class="message"></div>
+                </div>
+                <div class="dialog-footer">
+                    <button control-class="btn-close-dialog" class="n-btn btn-close-dialog">Đóng</button>
+                    <button control-class="btn-submit" class="n-btn btn-submit">Xác nhận</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var isMarket = true;
+
+        var map;
+        var service;
+
+        function initMap() {
+            var temp = new google.maps.LatLng(10.7628362, 106.6764114);
+
+            map = new google.maps.Map(
+                document.getElementById('map'), {
+                    center: temp,
+                    zoom: 15
+                });
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnm4OEOG6r896cx7OzMdKxAJhSHbVyiQI&libraries=places&callback=initMap" async defer></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        ! function(f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function() {
+                n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2589702527947542');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+             src="https://www.facebook.com/tr?id=2589702527947542&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+<!-- Filter dishes -->
+<div class="container" id="dishesFilter">
+    <!-- Cuisine -->
+    <div class="row mt-3">
+        <ul class="filterCuisine lightSliderTarget">
+            {{# each cuisines}}
+                <li class="{{#if isActive}}filter-active{{/if}} cuisine-item" data-cuisine="{{inc index}}">
+                    <a>
+                        <img src="/images/cuisine_icon/{{inc index}}.jpg" />
+                    </a>
+                    <div>{{name}}</div>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+
+    <!-- Diet -->
+    <div class="row mt-0 pt-0">
+        <br>
+        <ul class="filterDiet lightSliderTarget mt-3 mb-5">
+            {{# each diets}}
+                <li class="{{#if isActive}}filter-active{{/if}} diet-item" data-diet="{{inc index}}">
+                    <a>{{name}}</a>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+
+    <div class="filterDishType">
+        <!-- Dish type row -->
+        {{# each dishTypes}}
+            <div class="row mb-3">
+                {{# each this}}
+                    <div class="col-md-2 pr-1">
+                        <a class="dish-type-item {{#if isActive}}filter-active{{/if}}" data-dish-type="{{inc index}}" style="background: url('/images/dishType_icon/{{inc index}}_thumbnail.jpg'); background-size: cover;">
+                            <div class="dish-type-label">
+                                <span>{{name}}</span>
+                            </div>
+                        </a>
+                    </div>
+                {{/each}}
+            </div>
+        {{/each}}
+    </div>
+</div>
+
+<!-- //Filter dishes --> 
+
+<!-- top Dishes -->
+<div id="scrollTarget" class="ads-grid py-sm-2 py-4">
+    <div class="container py-xl-4 py-lg-2">
+        <!-- tittle heading -->
+        <h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
+            <span>C</span>ùng
+            <span>Ă</span>n
+            <span>N</span>ào
+        </h3>
+        <!-- //tittle heading -->
+        <div class="row">
+            <div class="agileinfo-ads-display col-lg-12">
+                <div class="wrapper">
+                    <!-- template section -->
+                    <div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
+                        {{# each dishes}}
+                            <div class="row mb-4">
+                                {{# each this}}
+                                    <div class="col-md-3">
+                                        <div class="item-inner card shadow">
+                                            <div class="item-image">
+                                                <a href="/dish/{{dishID}}">
+                                                    <img src="{{imageUrl}}" class="responsive"/>
+                                                </a>
+                                                <div class="item-favorite">
+                                                            <span class="favoriteNumber{{dishID}}">{{favoriteNumber}}</span>
+                                                            {{#if isUserFavorite}}
+                                                            <i class="fa fa-heart favorite-dish" id="{{dishID}}"></i>
+                                                            {{else}}
+                                                            <i class="far fa-heart favorite-dish" id="{{dishID}}"></i>
+                                                            {{/if}}
+
+                                                </div>
+                                            </div>
+                                            <div class="item-info">
+                                                <div class="item-info-header">
+                                                    <div class="item-info-title">
+                                                        <a href="/dish/{{dishID}}"><h5 class="truncate2">{{name}}</h5></a>
+                                                    </div>
+                                                    <div class="item-info-stats">
+                                                        <ul class="item-info-stats-1">
+                                                            <li class="stats-item">
+                                                                <i class="fa fa-clock"></i>
+                                                                <span>
+                                                                    <span>{{readyTime}}</span>
+                                                                    <span>min</span>
+                                                                </span>
+                                                            </li>
+                                                            <li class="stats-item">
+                                                                <i class="fa fa-eye"></i>
+                                                                <span>
+                                                                    <span>{{totalView}}</span>
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- Dish types -->
+                                                        <ul class="item-info-stats-2">
+                                                            <li class="stats-item stats-item-dish-type">
+                                                                <span class="truncate1" data-toggle="tooltip" title="{{dishTypesStr}}">
+                                                                    <i class="fa fa-fire"></i>
+                                                                    {{# each dishTypes}}
+                                                                        <span><a herf="#">{{getDishTypeName dishTypeID}}</a></span>,&nbsp;
+                                                                    {{/each}}
+                                                                </span>
+                                                            </li>
+                                                            <li class="stats-item stats-item-cuisine">
+                                                                <span class="truncate1" data-toggle="tooltip" title="{{cuisinesStr}}">
+                                                                    <i class="fa fa-tint"></i>
+                                                                    {{# each cuisines}}
+                                                                        <span><a herf="#">{{getCuisineName cuisineID}}</a></span>,&nbsp;
+                                                                    {{/each}}
+                                                                </span>
+                                                            </li>
+                                                            <li class="stats-item stats-item-diet">
+                                                                <span class="truncate1" data-toggle="tooltip" title="{{dietsStr}}">
+                                                                    <i class="fa fa-leaf"></i>
+                                                                    {{# each diets}}
+                                                                        <span><a herf="#">{{getDietName dietID}}</a></span>,&nbsp;
+                                                                    {{/each}}
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item-info-createdDate">
+                                                        <span>{{parseDateTime createdDate "/"}}</span>
+                                                    </div>
+                                                </div>
+                                                <div class="item-info-footer">
+                                                    <div class="item-rating">
+                                                        <input type="hidden" class="starRating kv-ltr-theme-fas-star rating-loading" value="{{rating}}" disabled data-size="xs"/>
+                                                    </div>
+                                                    <div class="recipe-by mt-3">
+                                                        <a href="/profile/{{creator.userID}}">
+                                                            {{!-- <img src="{{creator.avatarUrl}}" /> --}}
+                                                            <img src="{{getUserAvatarUrl creator.avatar}}" alt="" class="img-circle"/>
+                                                            {{creator.firstName}} {{creator.lastName}}
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {{/each}}
+                            </div>
+                        {{else}}
+                            <div class="nothing-found-wrapper text-center">
+                                <h2>Rất tiếc hiện tại không có công thức bạn cần tìm !!!</h2>
+                                <img src="/images/nothing_found.png"/>
+                            </div>
+                        {{/each}}
+                    </div>
+                    <!-- //template section -->
+                    <!-- Pagination -->
+                    <nav id="dishes-pagination" aria-label="Page navigation example">
+                      <ul class="pagination">
+                            {{#paginate pagination type="first"}}
+                            <li class="page-item {{#if disabled}}disabled{{/if}}"><a class="page-link page-link-first-last" href="page={{n}}">First</a></li>
+                            {{/paginate}}
+                            {{#paginate pagination type="previous"}}
+                            <li class="page-item {{#if disabled}}disabled{{/if}}"><a class="page-link page-link-first-last" href="page={{n}}">Prev</a></li>
+                            {{/paginate}}
+                            {{#paginate pagination type="middle" limit="5"}}
+                            <li class="page-item {{#if active}}active{{/if}}"><a class="page-link" href="page={{n}}">{{n}}</a></li>
+                            {{/paginate}}
+                            {{#paginate pagination type="next"}}
+                            <li class="page-item {{#if disabled}}disabled{{/if}}"><a class="page-link page-link-first-last" href="page={{n}}">Next</a></li>
+                            {{/paginate}}
+                            {{#paginate pagination type="last"}}
+                            <li class="page-item {{#if disabled}}disabled{{/if}}"><a class="page-link page-link-first-last" href="page={{n}}">Last</a></li>
+                            {{/paginate}}
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //top Dishes -->

@@ -1,0 +1,40 @@
+.bg-image {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: url('../images/login_bg.jpg');
+}
+
+.bg-image-v2 {
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    background: url('../images/login_bg.jpg');
+}
+
+.container {
+    padding: 50px 0;
+}
+
+.signup-container {
+    padding: 20px 0;
+}
+
+.modal-dialog {
+    margin: 0 auto;
+}
+
+.modal-header {
+    margin: 0 auto;
+}
+
+.error {
+    color: #ff471a;
+}
+
+.alert-message {
+    width: 93%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}

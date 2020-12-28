@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <!-- Custom-Files -->
+    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Bootstrap css -->
+    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/stylesheets/login.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Main css -->
+    <link rel="stylesheet" href="/stylesheets/fontawesome-all.css">
+    <!-- Font-Awesome-Icons-CSS -->
+
+    <!-- web fonts -->
+    <link
+        href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext"
+        rel="stylesheet">
+    <link
+        href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <style>
+        .container {
+            padding: 0;
+        }
+
+        .changePwd-container {
+            padding-top: 50px;
+        }
+    </style>
+    <div class="bg-image"></div>
+    <div class="changePwd-container">
+        <!-- modals -->
+        <!-- log in -->
+        <div class="show" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center">Đổi mật khẩu mới</h5>
+                    </div>
+                    <div class="modal-body">
+                        <form name="changePwdForm" class="form-signin" action="/changePwd" method="POST">
+                            {{#if success_messages }}
+                            <div class="alert alert-success">{{success_messages}}</div>
+                            {{/if}}
+                            {{#if error_messages }}
+                            <div class="alert alert-danger">{{error_messages}}</div>
+                            {{/if}}
+                            <div class="form-group">
+                                <label class="col-form-label">Mật khẩu cũ</label>
+                                <input type="password" id="passwordOld" name="passwordOld" class="form-control"
+                                    placeholder="Nhập mật khẩu cũ" required autofocus>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-form-label">Mật khẩu mới</label>
+                                <input type="password" class="form-control" placeholder="Mật khẩu mới" name="password"
+                                    id="password1" required="">
+                            </div>
+                            <div class="form-group">
+                                <label class="col-form-label">Nhập lại mật khẩu mới</label>
+                                <input type="password" class="form-control" placeholder="Nhập lại mật khẩu mới"
+                                    name="re-password" id="password2" required="">
+                            </div>
+                            <br />
+                            <div id="SubmitArea" style="display: flex">
+                                <span style="margin: auto; display: block;">
+                                    <input id="changePwdBtn" class="btn btn-primary" type="submit" value="Đổi mật khẩu">
+                                    {{!-- <button class="btn btn-lg btn-primary btn-block" type="submit">Đổi mật khẩu</button> --}}
+                                    <a class="btn btn-outline-danger" href="/" role="button"
+                                        style="margin-left: 20px;">Hủy</a>
+                                </span>
+                            </div>                            
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="loading" class="sk-fading-circle" style="display: none;">
+        <div class="sk-circle1 sk-circle"></div>
+        <div class="sk-circle2 sk-circle"></div>
+        <div class="sk-circle3 sk-circle"></div>
+        <div class="sk-circle4 sk-circle"></div>
+        <div class="sk-circle5 sk-circle"></div>
+        <div class="sk-circle6 sk-circle"></div>
+        <div class="sk-circle7 sk-circle"></div>
+        <div class="sk-circle8 sk-circle"></div>
+        <div class="sk-circle9 sk-circle"></div>
+        <div class="sk-circle10 sk-circle"></div>
+        <div class="sk-circle11 sk-circle"></div>
+        <div class="sk-circle12 sk-circle"></div>
+    </div>
+
+    <!-- jquery -->
+    <script type="text/javascript" src="javascripts/jquery-2.2.3.min.js"></script>
+    <!-- //jquery -->
+        <!-- jquery validation-->
+    <script type="text/javascript" src="javascripts/jquery.validate.min.js"></script>
+    <!-- //jquery validation-->
+    <!-- account -->
+    <script type="text/javascript" src="javascripts/account.js"></script>
+    <!-- end account -->
+    <!-- Service js-->
+    <script type="text/javascript" src="javascripts/service/loading.js"></script>
+    <!-- //Service js -->
+</body>
+
+</html>

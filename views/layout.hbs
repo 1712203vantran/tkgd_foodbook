@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta tag Keywords -->
+
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
+
+    <!-- Bootstrap css -->
+    <link href="/stylesheets/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- LightSlider css -->
+    <link href="/stylesheets/lightslider.min.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- LightGallery css -->
+    <link href="/vendor/css/lightGallery/lightgallery.min.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- FilePond css -->
+    <link href="/vendor/css/filepond/filepond.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/vendor/css/filepond/filepond-plugin-image-review.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- Main css -->
+    <link rel="stylesheet" href="/stylesheets/fontawesome-all.css">
+    <!-- Font-Awesome-Icons-CSS -->
+    <link href="/stylesheets/popup-box.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- pop-up-box -->
+    <link href="/stylesheets/menu.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- menu style -->
+
+    <!-- Star rating css -->
+    <link href="/vendor/css/star-rating/star-rating.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/vendor/css/themes/star-rating-theme-fas.min.css" rel="stylesheet" type="text/css" media="all" />
+
+    <!-- Select2 css -->
+    <link href="/vendor/css/select2/select2.min.css" rel="stylesheet" type="text/css" media="all" />
+
+    <!-- Sweetalert2 css -->
+    <link href="/vendor/css/sweetalert2/sweetalert2.min.css" rel="stylesheet" type="text/css" media="all" />
+
+    <!-- Custom-Files -->
+    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" media="all" />
+
+    <!-- web fonts -->
+    <link
+        href="//fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext"
+        rel="stylesheet">
+    <link
+        href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+        rel="stylesheet">
+    <!-- //web fonts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+
+</head>
+
+<body>
+    <!-- top-header -->
+    <div class="agile-main-top">
+        <div class="container-fluid">
+            <div class="row main-top-w3l py-2">
+                <!-- logo -->
+                <div class="col-md-2" style="padding-left: 40px;">
+                    <div>
+                        <a href="/" style="text-decoration:none; color: white;">
+                            <img src="/images/logo-foodbook.png">
+                        </a>
+                    </div>
+
+                </div>
+                <!-- //logo -->
+                <!-- header-bot -->
+                <div class="col-md-6 header mt-2 mb-md-0 mb-2">
+                    <div class="row" style="padding-left: 100px;">
+                        <!-- search -->
+                        <div class="col-10 agileits_search">
+                            <form id="searchDishesForm" name="searchDishesForm" class="form-inline input-group mb-2" action="/search" method="get">
+                                <div class="input-group-prepend">
+                                    <button id="search-type-btn" class="search-type-display btn btn-outline-secondary dropdown-toggle"
+                                        type="button" data-toggle="dropdown" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        {{#if searchTypeTitle}}
+                                            {{searchTypeTitle}}
+                                        {{else}}
+                                            Món ăn
+                                        {{/if}}
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item search-type-option" data-search-type-title="Món ăn" data-search-type="dishName">Món ăn</a>
+                                        <a class="dropdown-item search-type-option" data-search-type-title="Nguyên liệu" data-search-type="ingredientName">Nguyên liệu</a>
+                                        <a class="dropdown-item search-type-option" data-search-type-title="Dinh dưỡng" data-search-type="nutritionName">Dinh dưỡng</a>
+                                    </div>
+                                </div>
+                                <input type="text" class="search-keyword form-control" placeholder="Tìm kiếm món ăn"
+                                    aria-label="search" aria-describedby="search dishes" 
+                                    name="{{#if searchType}}{{searchType}}{{else}}dishName{{/if}}" 
+                                    value="{{searchKeyword}}">
+                                <div class="input-group-append">
+                                    <button type="submit" id="searchDishesSubmitBtn" class="btn">
+                                        <span class="input-group-text my-btn-bg-orange pl-3 pr-3">
+                                            <i class="fas fa-search" aria-hidden="true"></i>
+                                        </span>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- //header-bottom -->
+                <div class="col-lg-4 header-right mt-lg-0 mt-2 pt-1">
+                    <!-- header lists -->
+                    <ul class="pt-2 pb-2">
+                        {{#if user}}
+                        <li id="welcomeUser" class="text-center border-right text-white">
+                            <div class="show">
+                                <a href="" class="text-white dropdown-toggle" id="profileDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fas fa-user mr-2"></i> Chào {{user.lastName}}</a>
+                                <div class="dropdown-menu" aria-labelledby="profileDropdown">
+                                    <a class="dropdown-item" href="/yourInfo">Hồ sơ</a>
+                                    <a class="dropdown-item" href="/changePwd">Thay đổi mật khẩu</a>
+                                    {{#ifCond user.userType '==' adminType}}
+                                        <a class="dropdown-item" href="/censorRecipe">Kiểm duyệt</a>
+                                    {{/ifCond}}
+                                </div>
+                            </div>
+                        </li>
+                        <li id="postRecipe" class="text-center text-white">
+                            <a href="/post_recipe" class="text-white">
+                                <i class="fas fa-sticky-note mr-2"></i>Công thức mới</a>
+                        </li>
+                        <li id="logout" class="text-center text-white">
+                            <a href="/logout" class="text-white">
+                                <i class="fas fa-sign-out-alt mr-2"></i> Đăng xuất</a>
+                        </li>
+                        {{else}}
+                        <li id="login" class="text-center border-right text-white">
+                            <a href="/login" class="text-white">
+                                <i class="fas fa-sign-in-alt mr-2"></i> Đăng nhập </a>
+                        </li>
+                        <li id="signup" class="text-center text-white">
+                            <a href="/signup" class="text-white">
+                                <i class="fas fa-user-plus mr-2"></i> Đăng ký </a>
+                        </li>
+                        {{/if}}
+                    </ul>
+                    <!-- //header lists -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Button trigger modal(select-location) -->
+    <div id="small-dialog1" class="mfp-hide">
+        <div class="select-city">
+            <h3>
+                <i class="fas fa-map-marker"></i> Chọn vị trí</h3>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- //shop locator (popup) -->
+
+    <!-- forgot password -->
+    <div class="modal fade" id="forgetPasswordModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Quên mật khẩu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form name="forgetPasswordForm" action="" method="post">
+                        <div class="form-group">
+                            <label class="col-form-label">Email khôi phục:</label>
+                            <input type="text" class="form-control" placeholder=" " name="email" required="">
+                        </div>
+                        <div class="right-w3l">
+                            <input id="forgetPasswordSendMailBtn" type="submit" class="form-control" value="Gửi">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Verification Code -->
+    <div class="modal fade" id="verificationModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Chúng tôi đã gửi mail xác nhận tới bạn.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form name="verificationForm" action="" method="post">
+                        <div class="form-group">
+                            <label class="col-form-label">Nhập mã xác nhận:</label>
+                            <input type="text" class="form-control" placeholder=" " name="code" required="">
+                        </div>
+                        <div class="right-w3l">
+                            <input id="verificationBtn" type="submit" class="form-control" value="Xác nhận">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recover password -->
+    <div class="modal fade" id="recoverPasswordModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Phục hồi mật khẩu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form name="recoverPasswordForm" action="" method="post">
+                        <div class="form-group">
+                            <label class="col-form-label">Mật khẩu mới</label>
+                            <input type="password" class="form-control" placeholder=" " name="Password"
+                                id="recoverPassword1" required="">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label">Xác nhận mật khẩu</label>
+                            <input type="password" class="form-control" placeholder=" " name="ConfirmPassword"
+                                id="recoverPassword2" required="">
+                        </div>
+                        <div class="right-w3l">
+                            <input id="recoverPasswordBtn" type="submit" class="form-control" value="Xác nhận">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Global message -->
+    <div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- //modal -->
+    <!-- //top-header -->
+
+    <!-- navigation -->
+    <div class="navbar-inner">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="agileits-navi_search">
+                    <!--                       <form action="/product" method="post">
+                          <select id="agileinfo-nav_search" name="agileinfo_search" class="border" required="">
+                              <option value="">Tất cả loại hàng</option>
+                              <option value="Televisions">Tivi</option>
+                              <option value="Headphones">Tai nghe</option>
+                              <option value="Computers">Máy tính</option>
+                              <option value="Appliances">Đồ gia dụng</option>
+                              <option value="Mobiles">Điện thoại</option>
+                              <option value="Fruits &amp; Vegetables">Tv &amp; Video</option>
+                              <option value="iPad & Tablets">iPad & Tablets</option>
+                              <option value="Cameras & Camcorders">Cameras & Camcorders</option>
+                          </select>
+                      </form> -->
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto text-center mr-xl-5">
+                        <li class="nav-item active mr-lg-2 mb-lg-0 mb-2">
+                            <a class="nav-link" href="/">Trang chủ
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <!--
+                        <li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Món ăn
+                            </a>
+                            <div class="dropdown-menu">
+                                <div class="agile_inner_drop_nav_info p-4">
+                                    <h5 class="mb-3"><a href="/product">Món ăn</a></h5>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6 multi-gd-img">
+                                            <i class="fas fa-star" style="color: #FFD700"></i>
+                                            <a href="#">Top món ăn phổ biến</a>
+                                        </div>
+                                        <div class="col-sm-6 multi-gd-img">
+                                            <a href="#">Top món ăn tốt nhất</a>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6 multi-gd-img">
+                                            <a href="#">Top món ăn dinh dưỡng</a>
+                                        </div>
+                                        <div class="col-sm-6 multi-gd-img">
+                                            <a href="#">Top quán ăn/nhà hàng</a>
+                                        </div>
+                                    </div>
+                                    {{#each categoryChunks}}
+                                    <div class="row mb-3">
+                                        {{#each this}}
+                                        <div class="col-sm-3 multi-gd-img">
+                                            <a href="/category/{{categoryId}}">{{categoryName}}</a>
+                                        </div>
+                                        {{/each}}
+                                    </div>
+                                    {{/each}}
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown mr-lg-2 mb-lg-0 mb-2">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Thành viên
+                            </a>
+                            <div class="dropdown-menu">
+                                <div class="agile_inner_drop_nav_info p-4">
+                                    <h5 class="mb-3"><a href="/product">Thành viên</a></h5>
+                                    <div class="row mb-3">
+                                        <div class="col-sm-6 multi-gd-img">
+                                            <i class="fas fa-star" style="color: #FFD700"></i>
+                                            <a href="#">Đầu bếp nổi bật</a>
+                                        </div>
+                                        <div class="col-sm-6 multi-gd-img">
+                                            <a href="#">Bảng xếp hạng đầu bếp</a>
+                                        </div>
+                                    </div>
+                                    {{#each brandChunks}}
+                                    <div class="row mb-3">
+                                        {{#each this}}
+                                        <div class="col-sm-3 multi-gd-img">
+                                            <a href="/brand/{{brandId}}">{{name}}</a>
+                                        </div>
+                                        {{/each}}
+                                    </div>
+                                    {{/each}}
+                                </div>
+                            </div>
+                        </li>
+                        -->
+                        <li class="nav-item mr-lg-2 mb-lg-0 mb-2">
+                            <a class="nav-link" href="/advanced_search">Tìm kiếm nâng cao</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact">Liên hệ</a>
+                        </li>
+                        {{#if user}}
+                        <li class="nav-item text-center border-left text-white">
+                            
+                            <a class="nav-link" href="/profile"><i class="fa fa-user mr-2 ml-2" aria-hidden="true"></i>Trang cá nhân</a>
+                        </li>
+                        {{/if}}
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- //navigation -->
+
+    {{{body}}}
+
+    <!-- middle section -->
+    <div class="join-w3l1 py-sm-5 py-4">
+        <div class="container py-xl-4 py-lg-2">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="join-agile text-left p-4">
+                        <div class="row">
+                            <div class="col-sm-7 offer-name">
+                                <h6>Review đa dạng, phong phú</h6>
+                                <h4 class="mt-2 mb-3">Từ khắp các vùng miền</h4>
+                                <p>Hàng triệu người tin dùng</p>
+                            </div>
+                            <div class="col-sm-5 offerimg-w3l">
+                                <img src="../images/off1.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-lg-0 mt-5">
+                    <div class="join-agile text-left p-4">
+                        <div class="row ">
+                            <div class="col-sm-7 offer-name">
+                                <h6>Chất lượng tuyệt vời</h6>
+                                <h4 class="mt-2 mb-3">Được kiểm duyệt chặt chẽ</h4>
+                                <p>Tư vấn, hỗ trợ bạn tận lực</p>
+                            </div>
+                            <div class="col-sm-5 offerimg-w3l">
+                                <img src="../images/off2.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- middle section -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-top-first">
+            <div class="container py-md-5 py-sm-4 py-3">
+                <!-- footer second section -->
+                <div class="row w3l-grids-footer border-top border-bottom py-sm-4 py-3">
+                    <div class="col-md-4 offer-footer">
+                        <div class="row">
+                            <div class="col-4 icon-fot">
+                                <i class="fas fa-exclamation"></i>
+                            </div>
+                            <div class="col-8 text-form-footer">
+                                <h3>Review đa dạng</h3>
+                                <p>với hơn 1 triệu món ăn</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 offer-footer my-md-0 my-4">
+                        <div class="row">
+                            <div class="col-4 icon-fot">
+                                <i class="fas fa-expand"></i>
+                            </div>
+                            <div class="col-8 text-form-footer">
+                                <h3>Hình ảnh chân thật</h3>
+                                <p>Đầy đủ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 offer-footer">
+                        <div class="row">
+                            <div class="col-4 icon-fot">
+                                <i class="far fa-thumbs-up"></i>
+                            </div>
+                            <div class="col-8 text-form-footer">
+                                <h3>Nhanh chóng</h3>
+                                <p>tìm kiếm món ăn</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //footer second section -->
+            </div>
+        </div>
+        <!-- footer third section -->
+        <div class="w3l-middlefooter-sec">
+            <div class="container py-md-5 py-sm-4 py-3">
+                <div class="row footer-info w3-agileits-info">
+                    <!-- footer categories -->
+                    <div class="col-md-3 col-sm-6 footer-grids">
+                        <h3 class="text-white font-weight-bold mb-3">Loại món ăn</h3>
+                        <ul>
+                            <li class="mb-3">
+                                <a href="product">Món chính</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="product">Món phụ</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="product">Bánh</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="product">Tráng miệng</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="product">Đồ uống</a>
+                            </li>
+                            <li>
+                                <a href="product">Món chay</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- //footer categories -->
+                    <!-- quick links -->
+                    <div class="col-md-3 col-sm-6 footer-grids mt-sm-0 mt-4">
+                        <h3 class="text-white font-weight-bold mb-3">Liên kết nhanh</h3>
+                        <ul>
+                            <li class="mb-3">
+                                <a href="/about">About Us</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="contact">Liên hệ</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="help">Hỗ trợ</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="faqs">Faqs</a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="terms">Điều khoản sử dụng</a>
+                            </li>
+                            <li>
+                                <a href="privacy">Chính sách riêng tư</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footer-grids mt-md-0 mt-4">
+                        <h3 class="text-white font-weight-bold mb-3">Liên lạc</h3>
+                        <ul>
+                            <li class="mb-3">
+                                <i class="fas fa-map-marker"></i> 123456 Nguyễn Văn Cừ TP HCM.</li>
+                            <li class="mb-3">
+                                <i class="fas fa-mobile"></i> 123456 </li>
+                            <li class="mb-3">
+                                <i class="fas fa-phone"></i> +123445 </li>
+                            <li class="mb-3">
+                                <i class="fas fa-envelope-open"></i>
+                                <a href="mailto:example@mail.com"> mail 1@example.com</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope-open"></i>
+                                <a href="mailto:example@mail.com"> mail 2@example.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-6 footer-grids w3l-agileits mt-md-0 mt-4">
+                        <!-- newsletter -->
+                        <h3 class="text-white font-weight-bold mb-3">Newsletter</h3>
+                        <p class="mb-3">Nhận thông tin về các công thức mới nhất.</p>
+                        <form action="#" method="post">
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email" name="email" required="">
+                                <input type="submit" value="Go">
+                            </div>
+                        </form>
+                        <!-- //newsletter -->
+                        <!-- social icons -->
+                        <div class="footer-grids  w3l-socialmk mt-3">
+                            <h3 class="text-white font-weight-bold mb-3">Theo dõi</h3>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <a class="icon fb" href="#">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="icon tw" href="#">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="icon gp" href="#">
+                                            <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- //social icons -->
+                    </div>
+                </div>
+                <!-- //quick links -->
+            </div>
+        </div>
+        <!-- //footer third section -->
+    </footer>
+    <!-- //footer -->
+    <!-- copyright -->
+    <div class="copy-right py-3">
+        <div class="container">
+            <p class="text-center text-white">© 2020 Foodbook. All rights reserved | Design by
+                <a href="http://w3layouts.com"> W3layouts.</a>
+            </p>
+        </div>
+    </div>
+    <!-- //copyright -->
+
+    <div id="loading" class="sk-fading-circle" style="display: none;">
+        <div class="sk-circle1 sk-circle"></div>
+        <div class="sk-circle2 sk-circle"></div>
+        <div class="sk-circle3 sk-circle"></div>
+        <div class="sk-circle4 sk-circle"></div>
+        <div class="sk-circle5 sk-circle"></div>
+        <div class="sk-circle6 sk-circle"></div>
+        <div class="sk-circle7 sk-circle"></div>
+        <div class="sk-circle8 sk-circle"></div>
+        <div class="sk-circle9 sk-circle"></div>
+        <div class="sk-circle10 sk-circle"></div>
+        <div class="sk-circle11 sk-circle"></div>
+        <div class="sk-circle12 sk-circle"></div>
+    </div>
+
+    <!-- js-files -->
+
+    <!-- jquery -->
+    <script type="text/javascript" src="/javascripts/jquery-2.2.3.min.js"></script>
+    <!-- //jquery -->
+
+    <!-- jquery validation-->
+    <script type="text/javascript" src="/javascripts/jquery.validate.min.js"></script>
+    <!-- //jquery validation-->
+
+    <!-- nav smooth scroll -->
+    <script type="text/javascript">
+        /*$(document).ready(function () {
+            $(".dropdown").hover(
+                    function () {
+                        $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                        $(this).toggleClass('open');
+                    },
+                    function () {
+                        $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                        $(this).toggleClass('open');
+                    }
+            );
+        });*/
+    </script>
+    <!-- //nav smooth scroll -->
+
+    <!-- popup modal (for location)-->
+    <script type="text/javascript" src="/javascripts/jquery.magnific-popup.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: 'auto',
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+        });
+    </script>
+    <!-- //popup modal (for location)-->
+
+    <!-- scroll seller -->
+    <script type="text/javascript" src="/javascripts/scroll.js"></script>
+    <!-- //scroll seller -->
+
+    <!-- imagezoom -->
+    <script type="text/javascript" src="/javascripts/imagezoom.js"></script>
+    <!-- //imagezoom -->
+
+    <!-- flexslider -->
+    <link rel="stylesheet" href="/stylesheets/flexslider.css" type="text/css" media="screen" />
+
+    <script type="text/javascript" src="/javascripts/jquery.flexslider.js"></script>
+
+    <!-- //FlexSlider-->
+    <script type="text/javascript">
+        $(document).ready(function (c) {
+            $('.close1').on('click', function (c) {
+                $('.rem1').fadeOut('slow', function (c) {
+                    $('.rem1').remove();
+                });
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function (c) {
+            $('.close2').on('click', function (c) {
+                $('.rem2').fadeOut('slow', function (c) {
+                    $('.rem2').remove();
+                });
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function (c) {
+            $('.close3').on('click', function (c) {
+                $('.rem3').fadeOut('slow', function (c) {
+                    $('.rem3').remove();
+                });
+            });
+        });
+    </script>
+    <!-- //quantity -->
+
+    <!-- smoothscroll -->
+    <!-- <script src="javascripts/SmoothScroll.min.js"></script> -->
+    <!-- //smoothscroll -->
+
+    <!-- start-smooth-scrolling -->
+    <script type="text/javascript" src="/javascripts/move-top.js"></script>
+    <script type="text/javascript" src="/javascripts/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+
+    <!-- smooth-scrolling-of-move-up -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+            };
+            */
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <!-- //smooth-scrolling-of-move-up -->
+
+    <!-- for bootstrap working -->
+    <script type="text/javascript" src="/javascripts/umd/popper.min.js"></script>
+    <script type="text/javascript" src="/javascripts/bootstrap.js"></script>
+    <!-- //for bootstrap working -->
+
+    <!-- LightSlider -->
+    <script type="text/javascript" src="/javascripts/lightslider.min.js"></script>
+    <script type="text/javascript">
+        $('.filterCuisine.lightSliderTarget').lightSlider({
+            item: 8,
+            slideMove: 1,
+            mode: "slide",
+            slideMargin: 100,
+            pauseOnHover: true,
+            pager: false
+        });
+        $('.filterDiet.lightSliderTarget').lightSlider({
+            item: 6,
+            slideMove: 1,
+            mode: "slide",
+            slideMargin: 0,
+            pauseOnHover: true,
+            pager: false,
+            controls: false
+        });
+    </script>
+    <!-- //LightSlider -->
+
+    <!-- LightGallery -->
+    <script type="text/javascript" src="/vendor/javascript/lightGallery/lightgallery.min.js"></script>
+    <script type="text/javascript">
+        $('.lightGallery').lightGallery({
+            loop: false
+        });
+    </script>
+    <!-- //LightGallery -->
+
+    <!-- Star rating -->
+    <script type="text/javascript" src="/vendor/javascript/star-rating/star-rating.min.js"></script>
+    <script type="text/javascript">
+        $('.starRating').rating({
+            min: 0,
+            max: 5,
+            showCaption: false
+        });
+        $('.dishDetailStarRating').rating({
+            min: 0,
+            max: 5,
+            showCaption: false,
+            containerClass: "dishDetailStarRatingContainer"
+        })
+      </script>
+      <!-- //Star rating -->
+
+      <!-- FilePond -->
+      <script type="text/javascript" src="/vendor/javascript/filepond/filepond.min.js"></script>
+      <script type="text/javascript" src="/vendor/javascript/filepond/filepond-plugin-file-validate-type.js"></script>
+      <script type="text/javascript" src="/vendor/javascript/filepond/filepond-plugin-image-review.js"></script>
+      <!-- //FilePond -->
+
+      <!-- Select2 -->
+      <script type="text/javascript" src="/vendor/javascript/select2/select2.min.js"></script>
+      <!-- //Select2 -->
+
+      <!-- Sweetalert2 -->
+      <script type="text/javascript" src="/vendor/javascript/sweetalert2/sweetalert2.min.js"></script>
+      <!-- //Sweetalert2 -->
+
+      <!-- Hand-written code -->
+
+      <!-- Constant variables and Utils -->
+      <script type="text/javascript" src="/javascripts/service/constant.js"></script>
+      <script type="text/javascript" src="/javascripts/service/utils.js"></script>
+      <!-- //Constant variables -->
+
+      <!-- FilePond config-->
+      <script type="text/javascript" src="/javascripts/filepond-config.js"></script>
+      <!-- FilePond config -->
+
+      <!-- Dynamic guide js-->
+      <script type="text/javascript" src="/javascripts/dynamic-guide.js"></script>
+      <!-- //Dynamic guide js -->
+
+      <!-- Service js-->
+      <script type="text/javascript" src="/javascripts/service/loading.js"></script>
+      <!-- //Service js -->
+
+      <!-- Pagination query-->
+      <script type="text/javascript">
+          $('#dishes-pagination li a').each(function (key, value) {
+              const href = $(this).attr("href");
+              const queryUrl = '{{{queryUrl}}}' || "";
+              if (queryUrl.includes("?")){
+                  $(this).attr("href", queryUrl + href);
+              } else {
+                  $(this).attr("href", queryUrl + "?" + href);
+              }
+
+          })
+      </script>
+       <!-- Pagination query-->
+
+      <!-- SharedScripts js-->
+      <script type="text/javascript" src="/javascripts/sharedScripts.js"></script>
+      <!-- //SharedScripts js -->
+
+      <!-- //Hand-written code -->
+      <!-- //js-files -->
+      <!-- //template -->
+      <!-- end template -->
+  </body>
+</html>

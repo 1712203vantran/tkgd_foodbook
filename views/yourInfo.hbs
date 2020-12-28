@@ -1,0 +1,173 @@
+<link rel="stylesheet" href="https://bootswatch.com/4/simplex/bootstrap.min.css" />
+
+
+<!-- profile style -->
+<link href="/stylesheets/profile.css" rel="stylesheet" type="text/css" media="all" />
+<style>
+    .nav-link{
+        padding: .5rem 1rem;
+    }
+</style>
+
+<!-- profile javascript -->
+<script src="javascripts/profile.js"></script>
+
+
+<div class="container" style="font-size: 16.5px">
+    {{!-- <h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
+            <span>H</span>ồ sơ
+        </h3> --}}
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+
+                <div class="card-body">
+                    <div class="card-title mb-4">
+                        <div class="d-flex justify-content-start">
+                            <div class="image-container">
+                                <img src={{userInfo.avatarUrl}}
+                                    id="imgProfile" style="width: 216px; height: 216px" class="img-thumbnail" />
+                            </div>
+                            <div class="userData ml-3">
+                                <h2 class="d-block" style="font-size: 1.5rem; font-weight: bold"><a
+                                        href="javascript:void(0);">{{userInfo.firstName}} {{userInfo.lastName}} (@{{userInfo.username}})</a></h2>
+                                <h6 class="d-block"><a href="javascript:void(0)">1,500</a> Video đã đăng tải</h6>
+                                <h6 class="d-block"><a href="javascript:void(0)">300</a> bài Blog</h6>
+                                <button type="submit" class="btn btn-success my-btn-link" style="font-size: 1.1em;"><a
+                                        href="/editInfo">Cập nhật thông tin</a></button>
+                            </div>
+                            <div class="ml-auto">
+                                <input type="button" class="btn btn-primary d-none" id="btnDiscard"
+                                    value="Discard Changes" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="basicInfo-tab" data-toggle="tab" href="#basicInfo"
+                                        role="tab" aria-controls="basicInfo" aria-selected="true">Thông tin cơ bản</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="connectedServices-tab" data-toggle="tab"
+                                        href="#connectedServices" role="tab" aria-controls="connectedServices"
+                                        aria-selected="false">Thông tin liên lạc</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="basicInfo" role="tabpanel"
+                                    aria-labelledby="basicInfo-tab">
+
+
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">Tên người dùng</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            {{userInfo.firstName}}
+                                            {{userInfo.lastName}}
+                                        </div>
+                                    </div>
+                                    <hr />
+
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">Ngày sinh</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            {{parseDate userInfo.birthDate "/"}}</div>
+                                    </div>
+                                    <hr />
+
+
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">Giới tính</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            {{userInfo.gender}}</div>
+                                    </div>
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">Loại tài khoản</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            Blogger
+                                        </div>
+                                    </div>
+                                    <hr />
+
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">Ngày đăng ký</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            {{parseDate userInfo.createdDate "/"}}
+                                        </div>
+                                    </div>
+                                    <hr />
+
+                                </div>
+                                <div class="tab-pane fade" id="connectedServices" role="tabpanel"
+                                    aria-labelledby="ConnectedServices-tab">
+
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">Số điện thoại</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            {{userInfo.phone}}
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="row">
+                                        <div class="col-sm-3 col-md-2 col-5">
+                                            <label style="font-weight:bold;">Địa chỉ</label>
+                                        </div>
+                                        <div class="col-md-8 col-6">
+                                            {{userInfo.address}}</div>
+                                        </div>
+                                        <hr />
+                                        <div class="row">
+                                            <div class="col-sm-3 col-md-2 col-5">
+                                                <label style="font-weight:bold;">Email</label>
+                                            </div>
+                                            <div class="col-md-8 col-6">
+                                                {{userInfo.email}}
+                                            </div>
+                                        </div>
+                                        <hr />
+                                        <div class="row">
+                                            <div class="col-sm-3 col-md-2 col-5">
+                                                <label style="font-weight:bold;">Facebook</label>
+                                            </div>
+                                            <div class="col-md-8 col-6">
+                                                nhoxtheanh
+                                            </div>
+                                        </div>
+                                        <hr />
+                                        <div class="row">
+                                            <div class="col-sm-3 col-md-2 col-5">
+                                                <label style="font-weight:bold;">Instagram</label>
+                                            </div>
+                                            <div class="col-md-8 col-6">
+                                                nhoxtheanh
+                                            </div>
+                                        </div>
+                                        <hr />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

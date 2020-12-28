@@ -1,0 +1,224 @@
+<!-- Action buttons -->
+<div class="container my-4">
+    <div class="row">
+        <ul id="censorButtonsBar" class="action-toolbar">
+            <li id="selectAll" class="action-toolbar-item">
+                <div class="action-toolbar-item-wrapper">
+                    <div class="action-toolbar-item-icon"><i class="fas fa-anchor text-primary"></i></div>
+                    <div class="action-toolbar-item-btn">Chọn tất cả</div>
+                </div>
+            </li>
+            <li id="acceptRecipe" class="action-toolbar-item">
+                <div class="action-toolbar-item-wrapper">
+                    <div class="action-toolbar-item-icon"><i class="fas fa-check text-success"></i></div>
+                    <div class="action-toolbar-item-btn">Đồng ý</div>
+                </div>
+            </li>
+            <li id="rejectRecipe" class="action-toolbar-item">
+                <div class="action-toolbar-item-wrapper">
+                    <div class="action-toolbar-item-icon"><i class="fa fa-times text-danger"></i></div>
+                    <div class="action-toolbar-item-btn">Từ chối</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- Action buttons -->
+
+<!-- top Dishes -->
+<div class="ads-grid py-sm-2 py-4">
+    <div class="container py-xl-2 py-lg-2">
+        <!-- tittle heading -->
+        <h4 class="tittle-w3l text-left mb-lg-3 mb-sm-4">
+            Có <span>{{count}}</span> công thức đang chờ kiểm duyệt
+        </h4>
+        <!-- //tittle heading -->
+        <div class="row">
+            <div class="agileinfo-ads-display col-lg-12">
+                <div class="wrapper">
+                    <!-- template section -->
+                    <div id="waitingRecipes" class="product-sec1 px-sm-4 px-3 py-sm-5  py-2 mb-4">
+                        {{# each dishes}}
+                            <div class="waiting-recipe mb-5">
+                                <input type="hidden" data-dish="true" value="{{dishID}}"/>
+                                <div class="row">
+                                    <!-- Recipe image -->
+                                    <div class="col-md-4 waiting-recipe-image">
+                                        <div>
+                                            <img src="{{imageUrl}}"/>
+                                        </div>
+                                        <div class="mt-3 text-center">
+                                            <h5>{{name}}</h5>
+                                            <span class="font-italic waiting-recipe-createdDate">{{parseDateTime createdDate "/"}}</span>
+                                        </div>
+                                        <div class="mt-3 text-center">
+                                            <div class="waiting-recipe-creator recipe-by">
+                                                <a href="/profile/{{creator.userID}}">
+                                                    <img src="{{getUserAvatarUrl creator.avatar}}" alt="" class="img-circle"/>
+                                                    {{creator.firstName}} {{creator.lastName}}
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Recipe info -->
+                                    <div class="col-md-7 waiting-recipe-info">
+                                        <ul class="waiting-recipe-info-list">
+                                            <li class="waiting-recipe-info-item">
+                                                <div class="row mb-2">
+                                                    <div class="col-md-4">
+                                                        <span class="waiting-recipe-info-item-text">Độ khó: </span>
+                                                        <span class="waiting-recipe-info-item-value">{{difficulty}}/5</span>
+                                                    </div>
+                                                    <div class="col-md-3">
+                                                        <span class="waiting-recipe-info-item-text">Khẩu phần: </span>
+                                                        <span class="waiting-recipe-info-item-value">{{servings}}</span>
+                                                    </div>
+                                                    <div class="col-md-5">
+                                                        <span class="waiting-recipe-info-item-text">Chỉ số sức khỏe: </span>
+                                                        <span class="waiting-recipe-info-item-value">{{healthScore}}/100</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="waiting-recipe-info-item">
+                                                <div class="row">
+                                                    <span class="waiting-recipe-info-item-text col-md-4">Thời gian thực hiện: </span>
+                                                    <span class="waiting-recipe-info-item-value col-md-8">{{readyTime}} (phút)</span>
+                                                </div>
+                                            </li>
+                                            <li class="waiting-recipe-info-item">
+                                                <div class="row">
+                                                    <span class="waiting-recipe-info-item-text col-md-4">Chi phí: </span>
+                                                    <span class="waiting-recipe-info-item-value col-md-8">{{formatPrice price false}} VND</span>
+                                                </div>
+                                            </li>
+                                            <li class="waiting-recipe-info-item">
+                                                <div class="row">
+                                                    <span class="waiting-recipe-info-item-text col-md-4">Loại món ăn: </span>
+                                                    <span class="waiting-recipe-info-item-value col-md-8">{{dishTypesStr}}</span>
+                                                </div>
+                                            </li>
+                                            <li class="waiting-recipe-info-item">
+                                                <div class="row">
+                                                    <span class="waiting-recipe-info-item-text col-md-4">Ẩm thực: </span>
+                                                    <span class="waiting-recipe-info-item-value col-md-8">{{cuisinesStr}}</span>
+                                                </div> 
+                                            </li>
+                                            <li class="waiting-recipe-info-item">
+                                                <div class="row">
+                                                    <span class="waiting-recipe-info-item-text col-md-4">Chế độ ăn: </span>
+                                                    <span class="waiting-recipe-info-item-value col-md-8">{{dietsStr}}</span>
+                                                </div>
+                                                
+                                            </li>
+                                            <li class="waiting-recipe-info-item">
+                                                <div class="row">
+                                                    <span class="waiting-recipe-info-item-text col-md-4">Thành phần dinh dưỡng: </span>
+                                                    <span class="waiting-recipe-info-item-value col-md-8">{{nutritionsStr}}</span>
+                                                </div>  
+                                            </li>
+                                            <li class="waiting-recipe-info-item">
+                                                <div class="row">
+                                                    <span class="waiting-recipe-info-item-text col-md-4">Nguyên liệu chính: </span>
+                                                    <ul class="waiting-recipe-info-item-value col-md-8">
+                                                        {{# each ingredients}}
+                                                            {{#unless isExtended}}
+                                                                <li>
+                                                                    {{amount}} {{unit}} {{ingredient.name}}
+                                                                    <input type="hidden" data-ingredient="true" value="ingredientID"/>
+                                                                </li>
+                                                            {{/unless }}
+                                                        {{/each}}
+                                                    </ul>
+                                                </div>  
+                                            </li>
+                                            <li class="waiting-recipe-info-item">
+                                                <div class="row">
+                                                    <span class="waiting-recipe-info-item-text col-md-4">Nguyên liệu phụ: </span>
+                                                    <ul class="waiting-recipe-info-item-value col-md-8">
+                                                        {{# each ingredients}}
+                                                            {{#if isExtended}}
+                                                                <li>
+                                                                    {{amount}} {{unit}} {{ingredient.name}}
+                                                                    <input type="hidden" data-ingredient="true" value="ingredientID"/>
+                                                                </li>
+                                                            {{/if}}
+                                                        {{/each}}
+                                                    </ul>
+                                                </div>  
+                                            </li>
+                                            <li class="waiting-recipe-info-item">
+                                                <div class="row">
+                                                    <span class="waiting-recipe-info-item-text col-md-4">Video: </span>
+                                                    <span class="waiting-recipe-info-item-value col-md-8"><a href="{{video}}" target="_blank">{{video}}</a></span>
+                                                </div>  
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-1 waiting-recipe-checkbox">
+                                        <div class="text-center">
+                                            <input type="checkbox" class="form-control waiting-recipe-select" value={{dishID}} />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row my-3 mx-2">
+                                    <!-- Recipe guide -->
+                                    <h5 class="waitingRepGuideCollapse" data-toggle="collapse" aria-controls="collapseExample" href="#waitingRecipe{{@index}}" aria-expanded="false">Hướng dẫn thực hiện <i class="fa fa-caret-down"></i></h5>
+                                    <div class="collapse" id="waitingRecipe{{@index}}">
+                                        <div class="card card-body dish-instruction">
+                                            {{# each steps}}
+                                                <div class="dish-step mb-2">
+                                                    <div class="dish-step-text">
+                                                        <span class="dish-step-number">Bước <span>{{number}}</span>: </span>
+                                                        <span>{{description}}</span>
+                                                        {{#ifCond equipments '!=' ""}}
+                                                            <div class="pl-4"><b>Dụng cụ: </b>{{equipments}}</div>
+                                                        {{/ifCond}}
+                                                    </div>
+                                                    <div class="dish-step-image my-3 lightGallery">
+                                                        {{#each images}}
+                                                            {{#ifCond this '!=' ''}}
+                                                                <a href="{{getStepImageUrl this}}" class="mb-1 d-inline-block">
+                                                                    <img src="{{getStepImageUrl this}}" />
+                                                                </a>
+                                                            {{/ifCond}}
+                                                        {{/each}}
+                                                    </div>
+                                                </div>
+                                            {{/each}}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {{else}}
+                            <div class="nothing-found-wrapper text-center">
+                                <h2>Không có công thức nào đang chờ kiểm duyệt!!!</h2>
+                                <img src="/images/nothing_found.png"/>
+                            </div>
+                        {{/each}}
+                    </div>
+                    <!-- //template section page-link-first-last page-link-active page-link-first-last-->
+                    <nav id="dishes-pagination" aria-label="Page navigation example">
+                      <ul class="pagination">
+                            {{#paginate pagination type="first"}}
+                            <li class="page-item {{#if disabled}}disabled{{/if}}"><a class="page-link page-link-first-last" href="page={{n}}">First</a></li>
+                            {{/paginate}}
+                            {{#paginate pagination type="previous"}}
+                            <li class="page-item {{#if disabled}}disabled{{/if}}"><a class="page-link page-link-first-last" href="page={{n}}">Prev</a></li>
+                            {{/paginate}}
+                            {{#paginate pagination type="middle" limit="5"}}
+                            <li class="page-item {{#if active}}active{{/if}}"><a class="page-link" href="page={{n}}">{{n}}</a></li>
+                            {{/paginate}}
+                            {{#paginate pagination type="next"}}
+                            <li class="page-item {{#if disabled}}disabled{{/if}}"><a class="page-link page-link-first-last" href="page={{n}}">Next</a></li>
+                            {{/paginate}}
+                            {{#paginate pagination type="last"}}
+                            <li class="page-item {{#if disabled}}disabled{{/if}}"><a class="page-link page-link-first-last" href="page={{n}}">Last</a></li>
+                            {{/paginate}}
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //top Dishes -->

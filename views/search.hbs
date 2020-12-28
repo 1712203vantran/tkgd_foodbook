@@ -1,0 +1,216 @@
+<!-- Filter Dishes -->
+<div class="container mt-3 mb-0" id="dishesFilter">
+    <div class="row">
+        <!-- Dish type -->
+        <div class="col-md-2">
+            <div class="dropdown filterDishTypeCbs" id="dishTypeDropdown">
+                <a class="btn dropdown-toggle filter-link" type="button" id="dishTypeDropdownBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Loại món ăn
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dishTypeDropdownBtn">
+                    <div class="pl-3">
+                        {{# each dishTypes}}
+                            <div class="row mb-2">
+                                {{# each this}}
+                                    <div class="col-md-4">
+                                        <input id="dishTypeCb{{index}}" class="dish-type-item form-check-input" data-dish-type="{{inc index}}" type="checkbox"  value="{{inc index}}" {{#if isActive}}checked{{/if}}>
+                                        <label class="form-check-label" for="dishTypeCb{{index}}">
+                                            {{name}}
+                                        </label> 
+                                    </div>
+                                {{/each}}
+                            </div>
+                        {{/each}}
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <!-- //Dish type-->
+        <!-- Cuisine -->
+        <div class="col-md-2">
+            <div class="dropdown filterCuisineCbs" id="cuisineDropdown">
+                <a class="btn dropdown-toggle filter-link" type="button" id="dishTypeDropdownBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Ẩm thực
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dishTypeDropdownBtn">
+                    <div class="pl-3">
+                        {{# each cuisines}}
+                            <div class="row mb-2">
+                                {{# each this}}
+                                    <div class="col-md-4">
+                                        <input id="cuisine{{index}}" class="cuisine-item form-check-input" data-cuisine="{{inc index}}" type="checkbox" value="{{inc index}}" {{#if isActive}}checked{{/if}}>
+                                        <label class="form-check-label" for="cuisine{{index}}">
+                                            {{name}}
+                                        </label> 
+                                    </div>
+                                {{/each}}
+                            </div>
+                        {{/each}}
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <!-- //Cuisine -->
+        <!-- Diet -->
+        <div class="col-md-2">
+            <div class="dropdown filterDietCbs" id="dietDropdown">
+                <a class="btn dropdown-toggle filter-link" type="button" id="dishTypeDropdownBtn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Chế độ ăn
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="dishTypeDropdownBtn">
+                    <div class="pl-3">
+                        {{# each diets}}
+                            <div class="row mb-2">
+                                {{# each this}}
+                                    <div class="col-md-4">
+                                        <input id="diet{{index}}" class="diet-item form-check-input" data-diet="{{inc index}}" type="checkbox" value="{{inc index}}" {{#if isActive}}checked{{/if}}>
+                                        <label class="form-check-label" for="diet{{index}}">
+                                            {{name}}
+                                        </label> 
+                                    </div>
+                                {{/each}}
+                            </div>
+                        {{/each}}
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <!-- //Diet -->
+    </div>
+</div>
+<!-- Filter Dishes -->
+
+<!-- top Dishes -->
+<div class="ads-grid py-sm-2 py-4">
+    <div class="container py-xl-2 py-lg-2">
+        <!-- tittle heading -->
+        <h4 class="tittle-w3l text-left mb-lg-3 mb-sm-4">
+            Tìm thấy <span>{{count}}</span> kết quả
+        </h4>
+        <!-- //tittle heading -->
+        <div class="row">
+            <div class="agileinfo-ads-display col-lg-12">
+                <div class="wrapper">
+                    <!-- template section -->
+                    <div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
+                        {{# each dishes}}
+                            <div class="row mb-4">
+                                {{# each this}}
+                                    <div class="col-md-3">
+                                        <div class="item-inner card shadow">
+                                            <div class="item-image">
+                                                <a href="/dish/{{dishID}}">
+                                                    <img src="{{imageUrl}}" class="responsive"/>
+                                                </a>
+                                                <div class="item-favorite">
+                                                            <span class="favoriteNumber{{dishID}}">{{favoriteNumber}}</span>
+                                                            {{#if isUserFavorite}}
+                                                            <i class="fa fa-heart favorite-dish" id="{{dishID}}"></i>
+                                                            {{else}}
+                                                            <i class="far fa-heart favorite-dish" id="{{dishID}}"></i>
+                                                            {{/if}}
+
+                                                </div>
+                                            </div>
+                                            <div class="item-info">
+                                                <div class="item-info-header">
+                                                    <div class="item-info-title">
+                                                        <a href="/dish/{{dishID}}"><h5 class="truncate2">{{name}}</h5></a>
+                                                    </div>
+                                                    <div class="item-info-stats">
+                                                        <ul class="item-info-stats-1">
+                                                            <li class="stats-item">
+                                                                <i class="fa fa-clock"></i>
+                                                                <span>
+                                                                    <span>{{readyTime}}</span>
+                                                                    <span>min</span>
+                                                                </span>
+                                                            </li>
+                                                            <li class="stats-item">
+                                                                <i class="fa fa-eye"></i>
+                                                                <span>
+                                                                    <span>{{totalView}}</span>
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- Dish types -->
+                                                        <ul class="item-info-stats-2">
+                                                            <li class="stats-item stats-item-dish-type">
+                                                                <span class="truncate1" data-toggle="tooltip" title="{{dishTypesStr}}">
+                                                                    <i class="fa fa-fire"></i>
+                                                                    {{# each dishTypes}}
+                                                                        <span><a herf="#">{{getDishTypeName dishTypeID}}</a></span>,&nbsp;
+                                                                    {{/each}}
+                                                                </span>
+                                                            </li>
+                                                            <li class="stats-item stats-item-cuisine">
+                                                                <span class="truncate1" data-toggle="tooltip" title="{{cuisinesStr}}">
+                                                                    <i class="fa fa-tint"></i>
+                                                                    {{# each cuisines}}
+                                                                        <span><a herf="#">{{getCuisineName cuisineID}}</a></span>,&nbsp;
+                                                                    {{/each}}
+                                                                </span>
+                                                            </li>
+                                                            <li class="stats-item stats-item-diet">
+                                                                <span class="truncate1" data-toggle="tooltip" title="{{dietsStr}}">
+                                                                    <i class="fa fa-leaf"></i>
+                                                                    {{# each diets}}
+                                                                        <span><a herf="#">{{getDietName dietID}}</a></span>,&nbsp;
+                                                                    {{/each}}
+                                                                </span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="item-info-createdDate">
+                                                        <span>{{parseDateTime createdDate "/"}}</span>
+                                                    </div>
+                                                </div>
+                                                <div class="item-info-footer">
+                                                    <div class="item-rating">
+                                                        <input type="hidden" class="starRating kv-ltr-theme-fas-star rating-loading" value="{{rating}}" disabled data-size="xs"/>
+                                                    </div>
+                                                    <div class="recipe-by mt-3">
+                                                        <a href="/profile/{{creator.userID}}">
+                                                            <img src="{{getUserAvatarUrl creator.avatar}}" alt="" class="img-circle"/>
+                                                            {{creator.firstName}} {{creator.lastName}}
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {{/each}}
+                            </div>
+                        {{else}}
+                            <div class="nothing-found-wrapper text-center">
+                                <h2>Rất tiếc hiện tại không có công thức bạn cần tìm !!!</h2>
+                                <img src="/images/nothing_found.png"/>
+                            </div>
+                        {{/each}}
+                    </div>
+                    <!-- //template section -->
+                    <nav id="dishes-pagination" aria-label="Page navigation example">
+                      <ul class="pagination">
+                          {{#paginate pagination type="first"}}
+                            <li class="page-item {{#if disabled}}disabled{{/if}}"><a class="page-link page-link-first-last" href="page={{n}}">First</a></li>
+                            {{/paginate}}
+                            {{#paginate pagination type="previous"}}
+                            <li class="page-item {{#if disabled}}disabled{{/if}}"><a class="page-link page-link-first-last" href="page={{n}}">Prev</a></li>
+                            {{/paginate}}
+                            {{#paginate pagination type="middle" limit="5"}}
+                            <li class="page-item {{#if active}}active{{/if}}"><a class="page-link" href="page={{n}}">{{n}}</a></li>
+                            {{/paginate}}
+                            {{#paginate pagination type="next"}}
+                            <li class="page-item {{#if disabled}}disabled{{/if}}"><a class="page-link page-link-first-last" href="page={{n}}">Next</a></li>
+                            {{/paginate}}
+                            {{#paginate pagination type="last"}}
+                            <li class="page-item {{#if disabled}}disabled{{/if}}"><a class="page-link page-link-first-last" href="page={{n}}">Last</a></li>
+                            {{/paginate}}
+                      </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //top Dishes -->

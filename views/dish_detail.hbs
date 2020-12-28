@@ -1,0 +1,469 @@
+<!-- Single Page -->
+<div id="dish-detail-wrapper" class="banner-bootom-w3-agileits py-4">
+    <div class="container py-xl-1 py-lg-1">
+        <div class="row">
+            <!-- Dish detail -left -->
+            <div class="col-md-8 dish-detail-content-wrapper pl-0 pr-1">
+                <div class="dish-detail-content py-4">
+                    <input type="hidden" name="dishID" value="{{dish.dishID}}"/>
+                    <!-- tittle heading -->
+                    <div class="dish-favorite" style="color: red; font-size: 200%;">
+                        <a class="item-favorite">
+                            <span class="favoriteNumber{{dish.dishID}}">{{dish.favoriteNumber}}</span>
+                            {{#if dish.isUserFavorite}}
+                            <i class="fa fa-heart favorite-dish" id="{{dish.dishID}}"></i>
+                            {{else}}
+                            <i class="far fa-heart favorite-dish" id="{{dish.dishID}}"></i>
+                            {{/if}}
+
+                        </a>
+                    </div>
+                    <br><br>
+                    <h3 class="tittle-w3l text-center mb-lg-4 mb-sm-3 mb-3">
+                        {{dish.name}}
+                    </h3>
+                    <div class="dish-publish mt-1 mb-3">
+                        <div class="recipe-by mr-4">
+                            <a href="/profile/{{dish.createdBy}}">
+                                <img src="{{getUserAvatarUrl dish.creator.avatar}}" alt="" class="img-circle" style="width: 50px;"/>
+                                {{dish.creator.firstName}} {{dish.creator.lastName}}
+                            </a>
+                        </div>
+                        <div class="dish-publish-date">
+                            <span>{{parseDateTime dish.createdDate "/"}}</span>
+                        </div>
+                    </div>
+
+                    <!-- //tittle heading -->
+                    <!-- Dish content -->
+                    <!-- Dish review and view-->
+                    <div class="dish-review-view mt-0 mb-3 text-center">
+                        <div class="dish-rating">
+                            <input id="dishDetailStarRating1" type="hidden" class="dishDetailStarRating kv-ltr-theme-fas-star rating-loading" value="{{dish.rating}}" disabled data-size="xs"/>
+                            <span class="dish-rating-count" id="dish-rating1">{{dish.reviewNumber}} đánh giá</span>
+                                                    
+                        </div>
+                        <div class="dish-rating ml-4">
+                            <span class="dish-rating-count">
+                                <i class="fa fa-eye"></i>
+                                <span>{{dish.totalView}}</span>
+                            </span>                         
+                        </div>
+                    </div>
+                    <!-- Dish image -->
+                    <div class="dish-image-wrapper">
+                        <div class="dish-image">
+                            <img src="{{dish.imageUrl}}"/>
+                        </div>
+                    </div>
+                    <div class="dish-types mt-4 mb-5">
+                        <span class="badge badge-pill badge-danger mr-2"><i class="fa fa-fire"></i> {{dish.dishTypesStr}}</span>
+                        <span class="badge badge-pill badge-primary mr-2"><i class="fa fa-tint"></i> {{dish.cuisinesStr}}</span>
+                        <span class="badge badge-pill badge-success"><i class="fa fa-leaf"></i> {{dish.dietsStr}}</span>
+                    </div>
+                    <!-- Dish description -->
+                    <div class="dish-description mt-0 mb-5 px-4">
+                        <h4 class="my-3 text-center">Giới thiệu</h4>
+                        <p>{{{dish.description}}}.</p>
+                        <p><b>Thành phần dinh dưỡng</b>: {{dish.nutritionsStr}}</p>
+                    </div>
+                    <div class="dish-info my-4">
+                        <ul class="list-inline">
+                            <li>
+                                <div>
+                                    <div class="dish-info-stats-text">Thực hiện</div>
+                                    <div class="dish-info-stats-value">
+                                        <b class="dish-info-stats-count">{{dish.readyTime}}</b>
+                                        <span class="dish-info-stats-unit">min</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="dish-info-stats-text">Khẩu phần</div>
+                                    <div class="dish-info-stats-value">
+                                        <b class="dish-info-stats-count">{{dish.servings}}</b>
+                                        <span class="dish-info-stats-unit">người</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="dish-info-stats-text">Chi phí</div>
+                                    <div class="dish-info-stats-value">
+                                        <b class="dish-info-stats-count">{{formatPrice dish.price false}}</b>
+                                        <span class="dish-info-stats-unit">VND</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="dish-info-stats-text">Độ khó</div>
+                                    <div class="dish-info-stats-value">
+                                        <b class="dish-info-stats-count">{{dish.difficulty}}</b>
+                                        <span class="dish-info-stats-unit">/5</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- Dish ingredients -->
+                        <div class="dish-ingredient my-4">
+                            <h4 class="my-3">Nguyên liệu</h4>
+                            <table class="table table-bordered">
+                                <tbody>
+                                    {{# each dish.ingredients}}
+                                        <tr>
+                                            {{# each this}}
+                                                <td>
+                                                    <span class="dish-inrgredient-value">{{amount}} {{unit}}</span>
+                                                    <span class="dish-inrgredient-text">{{ingredient.name}} {{#if isExtended}}+{{/if}}</span>
+                                                </td>
+                                            {{/each}}
+                                        </tr>
+                                    {{/each}}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- Dish instruction -->
+                    <div class="dish-instruction my-4 pl-3 pr-3">
+                        <h4 class="my-3 text-center">Review</h4>
+                        {{# each dish.steps}}
+                            <div class="dish-step mb-2">
+                                <div class="dish-step-text">
+                                    <span class="dish-step-number">Bước <span>{{number}}</span>: </span>
+                                    <span>{{description}}</span>
+                                    {{#ifCond equipments '!=' ""}}
+                                        <div class="pl-4"><b>Dụng cụ: </b>{{equipments}}</div>
+                                    {{/ifCond}}
+                                </div>
+                                <div class="dish-step-image my-3 lightGallery">
+                                    {{#each images}}
+                                        {{#ifCond this '!=' ''}}
+                                            <a href="{{getStepImageUrl this}}" class="mb-1 d-inline-block">
+                                                <img src="{{getStepImageUrl this}}" />
+                                            </a>
+                                        {{/ifCond}}
+                                    {{/each}}
+                                </div>
+                            </div>
+                        {{/each}}
+                    </div>
+                    <!-- Dish video -->
+                    {{#if dish.video}}
+                        <div class="dish-video my-4 pl-3 pr-3">
+                            <h4 class="my-3 text-center">Video minh họa</h4>
+                            <iframe class="my-2" width="700" height="420" src="{{dish.video}}" 
+                                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                            </iframe>
+                        </div>
+                    {{/if}}
+                    <!-- //Dish content-->
+                </div> 
+            </div>
+            <!-- Dish detail right -->
+            <div class="col-md-4 dish-related-wrapper pl-3 pr-0">
+                <div class="dish-related py-4">
+                    <!-- tittle heading -->
+                    <h4 class="tittle-w3l text-center border-bottom mb-lg-2 mb-sm-2 mb-2 mx-4 pb-2">
+                        Món liên quan
+                    </h4>
+                    <!-- //tittle heading -->
+                     <!-- Dish related list -->
+                    <div class="dish-related-list">
+                        <div class="dish-related-list-recipes row">
+                            {{# each relatedDishes}}
+                                {{# each this}}
+                                    {{#ifCond @index '==' 0}}
+                                        <div class="dish-related-item-wrapper py-2 pl-4 pr-1">
+                                            <div class="dish-related-item pl-2 pr-1">
+                                                <div class="dish-related-item-image">
+                                                    <a href="/dish/{{dishID}}">
+                                                        <img src="{{getDishImageUrl image}}"/>
+                                                    </a>
+                                                </div>
+                                                <div class="dish-related-item-info text-ellipsis text-center">
+                                                    <a href="/dish/{{dishID}}">{{name}}</a>
+                                                    <div class="dish-related-item-stats text-left">
+                                                        <span class="dish-related-item-stats-item mr-1">
+                                                            <span class="item-stats-count">{{totalView}}</span>
+                                                            <span class="item-stats-unit">lượt xem</span>
+                                                        </span>
+                                                        <span class="dish-related-item-stats-item">
+                                                            <span class="item-stats-count">{{readyTime}}</span>
+                                                            <span class="item-stats-unit">min</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {{else}}
+                                        <div class="dish-related-item-wrapper py-2 pl-1 pr-4">
+                                            <div class="dish-related-item pl-1 pr-2">
+                                                <div class="dish-related-item-image">
+                                                    <a href="/dish/{{dishID}}">
+                                                        <img src="{{getDishImageUrl image}}"/>
+                                                    </a>
+                                                </div>
+                                                <div class="dish-related-item-info text-ellipsis text-center">
+                                                    <a href="/dish/{{dishID}}">{{name}}</a>
+                                                    <div class="dish-related-item-stats text-left">
+                                                        <span class="dish-related-item-stats-item mr-1">
+                                                            <span class="item-stats-count">{{totalView}}</span>
+                                                            <span class="item-stats-unit">lượt xem</span>
+                                                        </span>
+                                                        <span class="dish-related-item-stats-item">
+                                                            <span class="item-stats-count">{{readyTime}}</span>
+                                                            <span class="item-stats-unit">min</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    {{/ifCond}}
+                                {{/each}}
+                            {{else}}
+                                <div class="nothing-found-wrapper text-center px-5">
+                                    <h6>Không có công thức nào liên quan!!!</h6>
+                                </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                    <h4 class="tittle-w3l text-center border-bottom mb-lg-2 mb-sm-2 mb-2 mx-4 pb-2">
+                    </h4>
+                    <!-- //Dish related list -->
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <!-- Review -->
+            <div id="reviewSection" class="col-md-8 col-sm-12 dish-comment-wrapper py-3 px-3">
+                <div class="dish-review">
+                    <!-- tittle heading -->
+                    <h4 class="tittle-w3l text-center border-bottom mb-lg-2 mb-sm-2 mb-2 mx-4 py-2">
+                        Đánh giá
+                    </h4>
+                    {{#if user}}
+                        {{#if dish.userReviewed}}    <!-- nếu user đã review món ăn rồi -->
+                        <div class="dish-rating" style="text-align: center;">
+                            <input id="reviewed" type="hidden" class="dishDetailStarRating kv-ltr-theme-fas-star rating-loading" value="{{dish.userReviewed.rating}}" disabled data-size="xl"/>                         
+                            <br>
+                            <canvas id="mycanvas" width="150" height="150"></canvas>
+                            <div>Bạn đã đánh giá {{dish.userReviewed.rating}} sao cho món ăn này với nội dung: {{dish.userReviewed.content}}</div>
+                        </div>
+                        {{else}}
+                        <div class="dish-rating" style="text-align: center;">
+                            <input id="dishDetailStarRating2" type="hidden" class="dishDetailStarRating kv-ltr-theme-fas-star rating-loading" value="0" data-size="xl"/>
+                            <br>
+                            <canvas id="mycanvas" width="150" height="150"></canvas>
+                            <div  id="sendReviewSection">
+                                <textarea class="dish-review-content form-control" placeholder="Để lại đánh giá..." rows="2"></textarea>
+                                <br>
+                                <div class="text-right py-2">
+                                    <button type="button" class="dish-review-submit btn violet-link-btn px-4 pull-right">Gửi</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                            
+                        </div>
+                        {{/if}}
+                    {{else}}
+                             <div class="p-3">
+                                <a href="/login?retUrl=/dish/{{dish.dishID}}" class="" style="color: #7d00bb">Đăng nhập </a> đánh giá món ăn này !!!
+                            </div>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+        <div class="row my-4">
+            <!-- Comment -->
+            <div id="commentPanel" class="col-md-8 col-sm-12 dish-comment-wrapper py-3 px-3">
+                <div class="dish-comment">
+                    <!-- tittle heading -->
+                    <h4 class="tittle-w3l text-center border-bottom mb-lg-2 mb-sm-2 mb-2 mx-4 py-2">
+                        Bình luận
+                    </h4>
+                    <!-- //tittle heading -->
+                    <div class="panel panel-info">
+                        <div class="panel-heading pt-2 pb-3 pl-2">
+                            Thảo luận về {{dish.name}}
+                        </div>
+                        <div class="panel-body">
+                            {{#if user}}
+                                <textarea class="dish-new-comment-content form-control" placeholder="Để lại bình luận..." rows="4"></textarea>
+                                <br>
+                                <div class="text-right py-2">
+                                    <button type="button" class="dish-comment-submit btn violet-link-btn px-4 pull-right">Gửi</button>
+                                </div>
+                                <div class="clearfix"></div>
+                            {{else}}
+                                <div class="p-3">
+                                    <a href="/login?retUrl=/dish/{{dish.dishID}}" class="" style="color: #7d00bb">Đăng nhập </a> để bình luận ngay !!!
+                                </div>
+                            {{/if}}
+                            <hr>
+                            <ul class="dish-comment-list media-list">
+                                {{# each dish.comments}}
+                                    <li class="media">
+                                        <a href="/profile/{{user.userID}}" class="pull-left">
+                                            {{!-- {{#ifCond user.userType '==' ../userType.admin}}
+                                                <img src="/images/StunningRecipe.png" alt="" class="img-circle"/>
+                                            {{else}}
+                                                <img src="{{getUserAvatarUrl user.avatar}}" alt="" class="img-circle"/>
+                                            {{/ifCond}} --}}
+                                            <img src="{{getUserAvatarUrl user.avatar}}" alt="" class="img-circle"/>
+                                            
+                                        </a>
+                                        <div class="media-body ml-3">
+                                            <span class="text-muted pull-right">
+                                                <small class="text-muted">{{parseDateTime createdDate "/"}}</small>
+                                            </span>
+                                            <strong class="text-success"> {{user.firstName}} {{user.lastName}}</strong>
+                                            <p>
+                                                {{content}}
+                                            </p>
+                                        </div>
+                                    </li>
+                                {{/each}}
+                            </ul>
+                            {{#if hasMoreComments}}
+                                <div class="py-3 text-center">
+                                    <button class="load-comments-btn btn violet-link-btn py-2 px-4" data-next-comment-page="2">
+                                        <img src="/images/loadingPartial.gif" class="loading-comment" style="width: 25px; height: 25px; display: none;"/>
+                                        Tải thêm bình luận
+                                    </button>
+                                </div>
+                            {{/if}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+
+<script>
+    $(document).ready(function() { 
+        let ratingValue;
+        if (parseInt($('#reviewed').val())) // nếu đã review
+            ratingValue = parseFloat($('#reviewed').val());
+        else    //nếu chưa review
+            ratingValue = -1;
+        displayReact(ratingValue);
+        
+    });
+    function displayReact(ratingPoint) {
+        myFace();
+        myEye();
+        mySmile(ratingPoint);
+    }
+
+    function myFace() {
+        var c = document.getElementById("mycanvas");
+
+        //to draw a surface on canvas element pass 2d as an argument in the getContext function    
+        var draw = c.getContext("2d");
+
+        //to start a new path invoke BeginPath function.    
+        //Call this function when you want to create a new path    
+        draw.beginPath();
+
+        //to specify a color or style for your canvas use fillStyle property    
+        draw.fillStyle = "yellow";
+
+        //to create a full circle invoke the arc method and in that method    
+        //pass the value for x and y, radius, start point,    
+        draw.arc(75, 75, 75, 0, Math.PI * 2, true);
+
+        //to close the path invoke the closePath function    
+        draw.closePath();
+
+        //invoke fill function to fill the canvas with a circle and in that circle a color of yellow    
+        draw.fill();
+    }
+
+    function myEye() {
+        var c = document.getElementById("mycanvas");
+        var eye = c.getContext("2d");
+        //moveTo function is used to move the starting point of the canvas to a new point    
+        //x value is 55 and y value is 50    
+        eye.moveTo(55, 50);
+
+        //from the new point, begin a new path    
+        eye.beginPath();
+
+        //fill the style with color black    
+        eye.fillStyle = "black";
+
+        //left round eye    
+        eye.arc(40, 50, 6, 0, Math.PI * 2, true);
+        eye.closePath();
+        eye.fill();
+
+        //move to the new sub path from the current point and create a right eye    
+        eye.moveTo(103, 49);
+
+        eye.beginPath();
+        eye.fillStyle = "black";
+        //right round eye    
+        eye.arc(110, 50, 6, 0, Math.PI * 2, true);
+        eye.closePath();
+        eye.fill();
+    }
+
+    function mySmile(ratingPoint) {
+        var c = document.getElementById("mycanvas");
+        var smile = c.getContext("2d");
+        //105 means x it will go the left side and 75 means y it will go upward of //downward    
+        smile.moveTo(105, 75);
+        smile.beginPath();
+        smile.strokeStyle = "black";
+        const xStart = 30;
+        const yStart = 85;
+        const xEnd = 120;
+        const yEnd = 85;
+
+        switch (ratingPoint) {
+            case 0:
+                smile.bezierCurveTo(xStart, yStart + 10, xEnd - 50, yStart - 50, xEnd, yEnd + 10);
+                break;
+            case 0.5:
+                smile.bezierCurveTo(xStart, yStart + 10, xEnd - 50, yStart - 40, xEnd, yEnd + 10);
+                break;
+            case 1:
+                smile.bezierCurveTo(xStart, yStart + 10, xEnd - 50, yStart - 25, xEnd, yEnd + 10);
+                break;
+            case 1.5:
+                smile.bezierCurveTo(xStart, yStart + 10, xEnd - 50, yStart - 10, xEnd, yEnd + 10);
+                break;
+            case 2:
+                smile.bezierCurveTo(xStart, yStart, xEnd - 50, yStart - 10, xEnd, yEnd);
+                break;
+            case 2.5:
+                smile.bezierCurveTo(xStart, yStart, xEnd, yStart, xEnd, yEnd); // 2.5
+                break;
+            case 3:
+                smile.bezierCurveTo(xStart, yStart, xEnd - 50, yStart + 20, xEnd, yEnd); // 3
+                break;
+            case 3.5:
+                smile.bezierCurveTo(xStart, yStart, xEnd - 50, yStart + 40, xEnd, yEnd); // 3.5
+                break;
+            case 4:
+                smile.bezierCurveTo(xStart, yStart, xEnd - 50, yStart + 60, xEnd, yEnd); // 4
+                break;
+            case 4.5:
+                smile.bezierCurveTo(xStart, yStart, xEnd - 50, yStart + 80, xEnd, yEnd); // 4.5
+                break;
+            case 5:
+                smile.bezierCurveTo(xStart, yStart, xEnd, yStart, xEnd, yEnd);
+                smile.arc(75, 85, 45, 0, Math.PI);
+                smile.fillStyle = "white";
+                smile.fill();
+                break;
+            default:
+                //smile.bezierCurveTo(xStart, yStart, xEnd, yStart, xEnd, yEnd);
+        }
+
+        //to draw a half rounded circle with a line stroke we can invoke the stroke function    
+        smile.stroke();
+    }
+</script>
